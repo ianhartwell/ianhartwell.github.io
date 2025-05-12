@@ -1,0 +1,38 @@
+html {
+    background-color: lightgray;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: block;
+    margin: 8px;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    color: purple;
+}
+
+table {
+    border: 2px solid plum;
+    width: 650px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+th {
+    background-color: plum;
+}
+
+td {
+    border-top: 1px solid plum;
+}
+
+
+.code {
+    font-family: monospace;
+}
