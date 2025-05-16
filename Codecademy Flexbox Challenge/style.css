@@ -1,0 +1,169 @@
+/* Universal Styles */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: white;
+}
+
+/* Header */
+
+.logo {
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: grey;
+    padding: .75rem;
+}
+
+.nav-bar li {
+    display: inline;
+}
+
+.nav-bar li a {
+    text-decoration: none;
+    color: white;
+    padding: .05rem 0.5rem;
+    line-height: 1.5;
+}
+
+/* Mission Section */
+
+.mission {
+    height: 30rem;
+    width: 100%;
+    background-image: url("https://images.unsplash.com/photo-1573376670774-4427757f7963?q=80&w=3542&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-repeat: none;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mission-text {
+    color: white;
+    background-color: grey;
+    opacity: 0.75;
+    height: 15rem;
+    width: 100%;
+    margin: 2rem 0;
+    text-align: center;
+}
+
+.mission-text h2 {
+    margin-top: 2.5rem;
+}
+
+.mission-text p {
+    margin-top: 1rem;
+    width: 100%;
+}
+
+/* Products Section */
+
+.products {
+    height: auto;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-panel {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.products h2, h3 {
+    margin-top: 1rem;
+}
+
+.products
+
+.product-window {
+    text-align: center;
+    margin: 1.5rem;
+}
+
+.product-window img {
+    height: 15rem;
+    width: 15rem;
+    object-fit: cover;
+}
+
+.product-window h3 {
+    padding-top: .25rem;
+    padding-bottom: 0;
+}
+
+/* Team Section */
+
+.team {
+    height: auto;
+    width: 100%;
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.team h2 {
+    display: block;
+    margin: 1rem;
+}
+
+.team-panel {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.team-card {
+    text-align: center;
+    margin: 2rem;
+}
+
+.team-card img {
+    display: block;;
+    width: 12rem;
+    height: 12rem;
+    object-fit: cover;
+}
+
+/* Footer Section */
+
+footer {
+    height: 8%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact {
+    text-align: center;
+    padding: 0.5rem;
+}
+
+.contact h5 {
+    padding: 0.25rem;
+}
+
+.copyright {
+    padding: 0.75rem;
+}
