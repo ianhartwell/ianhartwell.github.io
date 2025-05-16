@@ -53,10 +53,11 @@ header {
     color: white;
     background-color: grey;
     opacity: 0.75;
-    height: 15rem;
+    height: auto;
     width: 100%;
-    margin: 2rem 0;
+    padding: 2rem 0;
     text-align: center;
+    text-justify: center;
 }
 
 .mission-text h2 {
