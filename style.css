@@ -16,6 +16,7 @@ li {
 html {
     font-family: Arial, sans-serif;
     font-size: 16px;
+    background-color: rgb(221, 221, 225)
 }
 
 header {
@@ -72,8 +73,15 @@ header ul li a {
   }
 }
 
+.profile-photo {
+    box-shadow: 0.1rem 0.1rem 0.25rem 0.1rem rgba(96, 97, 97, 0.25);
+}
+
 .about-text {
+    padding: 0.5rem;
     margin: 1.25rem;
+    border-radius: 1rem;
+    box-shadow: 0.1rem 0.1rem 0.25rem 0.1rem rgba(96, 97, 97, 0.25);
 }
 
 .profile-photo {
@@ -83,13 +91,52 @@ header ul li a {
     border-radius: 50%;
 }
 
+.ps-container {
+    display: flex;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 768px) {
+    .ps-container {
+        flex-direction: column;
+    }
+}
+
 .projects {
     padding: 1.25rem 0;
-    /* border: 1px solid black; */
+    border-radius: 1rem;
+    margin: 1rem;
+    box-shadow: 0.1rem 0.1rem 0.25rem 0.1rem rgba(96, 97, 97, 0.25);
 }
 
 .projects h2, h3, ul {
     margin-top: 0.25rem;
+    text-align: center;
+}
+
+.projects ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+    .projects ul li {
+        list-style: none;
+        text-align: center;
+        font-size: 1.25rem;
+        width: 15rem;
+        margin: 0.5em 0;
+        padding: 0.25rem 0.5rem;
+        background-color: rgb(172, 195, 247);
+        border-radius: 1rem;
+        box-shadow: 0.1rem 0.1rem 0.25rem 0.1rem rgba(96, 97, 97, 0.25);
+    }
+
+@media only screen and (max-width: 768px) {
+    .projects ul {
+        display:flex;
+        align-items: center;
+    }
 }
 
 @media only screen and (max-width: 768px) {
@@ -97,7 +144,12 @@ header ul li a {
         list-style: none;
         text-align: center;
         font-size: 1.25rem;
-        padding: 0.25rem;
+        width: 15rem;
+        margin: 0.5em 0;
+        padding: 0.25rem 0.5rem;
+        background-color: rgb(172, 195, 247);
+        border-radius: 1rem;
+        box-shadow: 0.1rem 0.1rem 0.25rem 0.1rem rgba(96, 97, 97, 0.25);
     }
 }
 
@@ -107,8 +159,11 @@ header ul li a {
 }
 
 .skills {
+    text-align: center;
     padding: 1.25rem 0;
-    /* border: 1px solid black; */
+    margin: 1rem;
+    border-radius: 1rem;
+    box-shadow: 0.1rem 0.1rem 0.25rem 0.1rem rgba(96, 97, 97, 0.25);
 }
 
 .skills ul li {
