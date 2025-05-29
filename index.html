@@ -1,9 +1,70 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Portfolio Website</title>
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+        <header class="nav-bar">
+          <h1>Ian Hartwell</h1>
+          <nav>
+            <ul>
+              <li><a href="#about">About</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#skills">Skills</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </nav>  
+        </header>
 
-<body>
-  <h1>Ian</h1>
-  <p>Welcome to my website!</p>
-  <img src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" />
-</body>
+        <main>
+          <section id="about" class="about">
+            <div class="about-container">
+              <img class="profile-photo" src="https://images.squarespace-cdn.com/content/v1/62056acaff98d81e862af3e7/d4587902-3211-4dc6-90bb-c05508ed0122/IMG_2129.jpg?format=2500w">
+              <div class="about-text">
+              <h2>About Me</h2>
+              <p>Welcome to my portfolio site. This site is being put together during my time working through the Codecademy Full-Stack Developer course. It is a way to showcase the skills that I am learning along the way. So far I have studied HTML, CSS and some basic JavaScript.
+                <br><br>
+                I began this course while being off work with a shoulder injury and unable to perform my usual day job due to the manual nature and constant heavy lifting that it required. I hope that by taking and completing this course that I will be able to transition into a new career.
+                <br><br>
+                I already have some database skills that I have acquired having completed the Goolge Data Analytics Professional certificate on Coursera, link available <a href="https://www.credly.com/badges/63c12042-a194-4f93-b0dc-238fed39ff72/public_url">here</a>, and I hope to be able to apply this knowledge later in the course when it combines both front-end and back-end web development.
+              </p>
+              </div>
+            </div>
+          </section>
+          <section id="projects" class="projects">
+            <div>
+              <h2>Projects</h2>
+              <h3>A sample of projects completed a I progress through the Codecademy Full Stack Developer course</h3>
+              <ul>
+                <li><a href="https://ianhartwell.github.io/Codecademy%20Cheat%20Sheet/">HTML Cheat Sheet</a></li>
+                <li><a href="https://ianhartwell.github.io/Codecademy%20Website%20Styles">Website Styles Board</a></li>
+                <li><a href="https://ianhartwell.github.io/Codecademy%20Flexbox%20Challenge">FlexBox Challenge</a></li>
+                <li><a href="https://github.com/ianhartwell/ianhartwell.github.io">GitHub</a></li>
+              </ul>
+            </div>
+          </section>
+          <section id="skills" class="skills">
+            <div>
+              <h2>Skills</h2>
+              <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>GitHub</li>
+                <li>Spreadsheets</li>
+                <li>SQL</li>
+              </ul>
+            </div>
+          </section>
 
+        </main>
+        <footer class="footer">
+          <div>
+            <p class="copyright">&copy; Ian Hartwell 2025</p>
+          </div>
+        </footer>
+    </body>
 </html>
