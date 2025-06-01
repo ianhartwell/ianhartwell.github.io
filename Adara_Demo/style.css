@@ -11,7 +11,7 @@ html {
 header {
     width: 100%;
     height: auto;
-    border-bottom: solid 1px #9B7036;
+    border-bottom: solid 1px #CDA470;
 }
 
 .container {
@@ -27,7 +27,7 @@ header {
 }
 
 nav ul li {
-    color: #9B7036;
+    color: #CDA470;
     display: inline;
     flex-wrap: wrap;
     margin-right: 1.25rem;
@@ -35,19 +35,19 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #9B7036;
+    color: #CDA470;
 }
 
 .mission {
     margin: 1rem;
     padding: 1rem;
-    border: 1px solid #136279;
+    border: 1px solid #34B7DF;
     border-radius: 18px;
-    box-shadow: 0.1rem 0.1rem 0.25rem 0.1rem #9B7036;
+    box-shadow: 0.1rem 0.1rem 0.25rem 0.1rem #CDA470;
 }
 
 .mission h2 {
-    color: #136279;
+    color: #34B7DF;
     text-align: center;
     padding-bottom: 0.5rem;
 }
@@ -55,9 +55,9 @@ nav ul li a {
 .bio {
     margin: 1rem;
     padding: 1rem;
-    border: 1px solid #136279;
+    border: 1px solid #34B7DF;
     border-radius: 18px;
-    box-shadow: 0.1rem 0.1rem 0.3rem 0.1rem #9B7036;
+    box-shadow: 0.1rem 0.1rem 0.3rem 0.1rem #CDA470;
 }
 
 h2 {
@@ -65,13 +65,13 @@ h2 {
 }
 
 h2, h3, h4 {
-    color: #136279;
+    color: #34B7DF;
     text-align: center;
 }
 
 
 p {
-    color: #9B7036;
+    color: #CDA470;
 }
 
 .bio h4, p {
@@ -85,9 +85,9 @@ p {
     justify-content: center;
     margin: 1rem;
     padding: 1rem;
-    border: 1px solid #136279;
+    border: 1px solid #34B7DF;
     border-radius: 18px;
-    box-shadow: 0.1rem 0.1rem 0.3rem 0.1rem #9B7036;
+    box-shadow: 0.1rem 0.1rem 0.3rem 0.1rem #CDA470;
 }
 
 .members-container h2 {
@@ -132,15 +132,15 @@ p {
 }
 
 .member-panel ul {
-    color: #9B7036
+    color: #CDA470
 }
 
 .election {
     margin: 1rem;
     padding: 1rem;
-    border: 1px solid #136279;
+    border: 1px solid #34B7DF;
     border-radius: 18px;
-    box-shadow: 0.1rem 0.1rem 0.25rem 0.1rem #9B7036;
+    box-shadow: 0.1rem 0.1rem 0.25rem 0.1rem #CDA470;
     text-align: center;
 }
 
@@ -157,5 +157,5 @@ button {
     padding: 1rem;
     border-radius: 25px;
     color: #07131F;
-    background-color: #136279;
+    background-color: #34B7DF;
 }
