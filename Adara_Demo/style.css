@@ -162,4 +162,5 @@ button {
     background-color: #34B7DF;
     font-family: 'Ancizar Serif', serif;
     font-weight: 700;
+    cursor: pointer;
 }
