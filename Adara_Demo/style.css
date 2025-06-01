@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    color: white;
+    background-color: #07131F;
+}
+
+header {
+    width: 100%;
+    height: auto;
+    border-bottom: solid 1px #9B7036;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.adara-logo {
+    width: 5rem;
+    border-radius: 50%;
+    margin: 1.25rem;
+}
+
+nav ul li {
+    color: #9B7036;
+    display: inline;
+    flex-wrap: wrap;
+    margin-right: 1.25rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #9B7036;
+}
+
+.mission {
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid #136279;
+    border-radius: 18px;
+    box-shadow: 0.1rem 0.1rem 0.25rem 0.1rem #9B7036;
+}
+
+.mission h2 {
+    color: #136279;
+    text-align: center;
+    padding-bottom: 0.5rem;
+}
+
+.bio {
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid #136279;
+    border-radius: 18px;
+    box-shadow: 0.1rem 0.1rem 0.3rem 0.1rem #9B7036;
+}
+
+h2 {
+    padding-bottom: 0.5rem;
+}
+
+h2, h3, h4 {
+    color: #136279;
+    text-align: center;
+}
+
+
+p {
+    color: #9B7036;
+}
+
+.bio h4, p {
+    margin: .5rem 0rem; 
+}
+
+.members-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid #136279;
+    border-radius: 18px;
+    box-shadow: 0.1rem 0.1rem 0.3rem 0.1rem #9B7036;
+}
+
+.members-container h2 {
+    display: block;
+    margin: 1rem;
+}
+
+.team-panel {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 0.75rem;
+    margin: 1.25rem;
+}
+
+@media only screen and (max-width: 865px) {
+    .team-panel {
+        flex-direction: column;
+    }
+}
+
+.member-panel a {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 15rem;
+    padding: 0.75rem;
+}
+
+.member-panel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.5rem;
+}
+
+.member-panel img {
+    width: 10rem;
+    border-radius: 50%;
+}
+
+.member-panel ul {
+    color: #9B7036
+}
+
+.election {
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid #136279;
+    border-radius: 18px;
+    box-shadow: 0.1rem 0.1rem 0.25rem 0.1rem #9B7036;
+    text-align: center;
+}
+
+.election-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center
+}
+
+button {
+    text-align: center;
+    margin: auto;
+    padding: 1rem;
+    border-radius: 25px;
+    color: #07131F;
+    background-color: #136279;
+}
