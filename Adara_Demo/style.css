@@ -6,6 +6,8 @@
 html {
     color: white;
     background-color: #07131F;
+    font-family: 'Ancizar Serif', serif;
+    font-size: 16px;
 }
 
 header {
@@ -115,7 +117,7 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 15rem;
+    width: 14rem;
     padding: 0.75rem;
 }
 
@@ -158,4 +160,6 @@ button {
     border-radius: 25px;
     color: #07131F;
     background-color: #34B7DF;
+    font-family: 'Ancizar Serif', serif;
+    font-weight: 700;
 }
