@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>JavaScript Playground</title>
+        <link href="style.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <!---Header and Navigation-->
+        <header>
+            <h1>JavaScript Playground</h1>
+            <nav>
+                <ul>
+                    <li><a href="#dom-manipulation">DOM Manipulation</a></li>
+                    <li><a href="#event-handling">Event Handling</a></li>
+                    <li><a href="#form-interaction">Form Interaction</a></li>
+                    <li><a href="#client-side-data">Client-side Data</a></li>
+                </ul>
+            </nav>     
+        </header>
+
+        <main>
+            <!---DOM Manipulation Panel-->
+            <section id="dom-manipulation" class="playground-area">
+                <h2>DOM Manipulation</h2>
+                <!---Random Number Generator Panel-->
+                <div id=random-number class="demo-panel">
+                    <h3>Random Number Generator</h3>
+                    <label for="min_value">Minimum Number:</label>
+                    <input type="number" id="min_value" placeholder="Enter minimum">
+                    <label for="max_value">Maximum Number:</label>
+                    <input type="number" id="max_value" placeholder="Enter maximum">
+                    <button id="numGenButton">Generate!</button>
+                    <div id="output">Output</div>
+                </div>
+                <!---Random Text Generator Panel-->
+                <div class="demo-panel">
+                    <h3>Random Text Generator</h3>
+                    <p id="random-text">The world in colour...</p>
+                    <button id="textGenButton">Randomise Text!</button>
+                </div>
+            </section>
+
+            <!---Event Handler Panel-->
+            <section id="event-handling" class="playground-area">
+                <h2>Event Handling</h2>
+                <!---Hover Effect Panel-->
+                <div class="demo-panel">
+                    <h3>Hover Effect</h3>
+                    <div id="hoverBox" class="hover-box">Hover Over Me!</div>
+                </div>
+                <!---Color Changer Panel-->
+                <div class="demo-panel">
+                    <h3>Color Changer</h3>
+                    <div id="clickBox" class="click-box">
+                        <button id="clickButton">Click Me!</button>
+                    </div>
+                </div>
+
+            </section>
+            <!---Form Validation Panel-->
+            <section id="form-interaction" class="playground-area">
+                <h2>Form Interaction</h2>
+                <!---Input Validation Panel-->
+                <div class="demo-panel">
+                    <h3>Input Validation</h3>
+                    <form id="usernameForm">
+                        <label for="usernameInput">Username (min 3 chars):</label>
+                        <input type="text" id="usernameInput" placeholder="Enter username">
+                        <span id="usernameError" class="username-error"></span>
+                        <button type="submit">Submit</button>
+                    </form>
+                </div>
+                <!---Dynamic Dropdowns Panel-->
+                <div class="demo-panel">
+                    <h3>Dynamic Dropdowns</h3>
+                    <label for="continentSelect">Country:</label>
+                    <select id="continentSelect">
+                        <option value="">Select a continent</option>
+                        <option value="Africa">Africa</option>
+                        <option value="Antarctica">Antarctica</option>
+                        <option value="Asia">Asia</option>
+                        <option value="Europe">Europe</option>
+                        <option value="North America">North America</option>
+                        <option value="Oceania">Oceania</option>
+                        <option value="South America">South America</option>
+                    </select>
+                    <label for="countrySelect">Country:</label>
+                    <select id="countrySelect">
+                        <option value="">Select a country</option>
+                    </select>
+                </div>
+
+            </section>
+            <!---Client-Side Data Panel-->
+            <section id="client-side-data" class="playground-area">
+                <h2>Client-side Data Storage</h2>
+                <div class="demo-panel">
+                    <h3>Light/Dark Mode Toggle</h3>
+                    <button id="dark-mode-toggle">
+                        <i class="fa-solid fa-sun"></i>
+                        <i class="fa-solid fa-moon"></i>
+                    </button>
+                </div>
+
+            </section>
+        </main>
+        <!---Footer-->
+        <footer>
+            <p>&copy; 2025 Ian Hartwell | JavaScript Playground</p>
+        </footer>
+        <script src="https://kit.fontawesome.com/d90b5ae19c.js" crossorigin="anonymous"></script>
+        <script src="./js/main.js"></script>
+        <script src="./js/darkmode.js" defer></script>
+    </body>
+</html>
