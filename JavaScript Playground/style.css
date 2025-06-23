@@ -1,0 +1,211 @@
+/* Generic Styles */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    line-height: 1.5rem;
+}
+
+html {
+    background-color: rgb(249, 232, 208);
+}
+
+/* Heading Styles */
+
+h1 {
+    font-size: 1.75rem;
+    padding-bottom: 0.25rem;
+}
+
+h2 {
+    font-size: 1.25rem;
+    text-align: center;
+}
+
+/* Header and Navigation Styles */
+
+header {
+    background-color: rgb(142, 220, 220);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0.5rem;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Main Body Styles */
+
+main {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+.playground-area {
+    background-color: rgb(142, 220, 220);
+    padding: 2rem;
+    margin: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.25);
+}
+
+.demo-panel {
+    border: 1px solid rgb(88, 178, 220);
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    margin: 1rem;
+}
+
+button {
+    color: white;
+    background-color: steelblue;
+    padding: 0.2rem 0.5rem;
+    border-radius: 1rem;
+    margin: 0.5rem;
+    border: 0.5px solid grey;
+    cursor: pointer;
+}
+
+button:hover {
+    color: white;
+    background-color: rgb(31, 88, 136);
+
+}
+
+footer {
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+/* Section Specific Styles */
+/* DOM Manipulation Styles */
+
+#random-number {
+    display: flex;
+    flex-direction: column;
+}
+
+#output {
+    align-self: center;
+    background-color: white;
+    width: 100%;
+    text-align: center;
+    border: 1px solid black;
+}
+
+/* Event Handling Styles */
+
+.hover-box {
+    height: 10rem;
+    width: 10rem;
+    text-align: center;
+    line-height: 10rem;
+    background-color: skyblue;
+    border-radius: 0.5rem;
+    cursor: default;
+}
+
+.hover-box.hover-over {
+    color: white;
+    background-color: midnightblue;
+}
+
+.click-box {
+    height: 10rem;
+    width: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: grey;
+    border-radius: 0.5rem;
+}
+
+/* Form Interaction Styles */
+
+/* Client-side Data Styles */
+
+.fa-sun, .fa-moon {
+    font-size: 2.5rem;
+}
+
+#dark-mode-toggle {
+    height: 5rem;
+    width: 5rem;
+    padding: 0;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#dark-mode-toggle i:first-child {
+    display: none;
+}
+
+.darkmode #dark-mode-toggle i:last-child {
+    display: none;
+}
+
+.darkmode #dark-mode-toggle i:first-child {
+    display: block;
+}
+
+.darkmode {
+    color: rgb(197, 196, 196);
+    background-color: rgb(3, 29, 53);
+}
+
+.darkmode header,
+.darkmode .playground-area {
+    background-color: rgb(6, 36, 64);
+}
+
+.darkmode nav ul li a {
+    color: rgb(197, 196, 196);
+}
+
+.darkmode .demo-panel {
+    border: 1px solid white;
+}
+
+.darkmode #hoverBox {
+    color: black;
+}
+
+.darkmode #hoverBox:hover {
+    color: rgb(197, 196, 196);
+}
+
+/* Device Specific Styles */
+
+@media only screen and (max-width: 767px) {
+    .demo-panel {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    form {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
