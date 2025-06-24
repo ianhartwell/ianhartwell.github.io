@@ -16,12 +16,13 @@ li {
 html {
     font-family: Arial, sans-serif;
     font-size: 16px;
-    background-color: rgb(221, 221, 225)
+    color: white;
+    background-color: rgb(2, 32, 83)
 }
 
 header {
     color: white;
-    background-color: black;
+    background-color: rgb(31, 59, 128);
     height: 4rem;
     width: 100%;
     display: flex;
@@ -60,6 +61,14 @@ header ul li a:hover {
   }
 }
 
+.container {
+    background-color: rgb(31, 59, 128);
+}
+
+.container:hover {
+    background-color: rgb(35, 65, 130);
+}
+
 .about {
     display: block;
     /* border: 1px solid black; */
@@ -68,6 +77,10 @@ header ul li a:hover {
 .about-container {
     display: flex;
     align-items: center;
+}
+
+.about-container a {
+    color: rgb(86, 207, 247);
 }
 
 @media only screen and (max-width: 768px) {
@@ -80,14 +93,14 @@ header ul li a:hover {
 }
 
 .profile-photo {
-    box-shadow: 0.1rem 0.1rem 0.25rem 0.1rem rgba(96, 97, 97, 0.25);
+    box-shadow: 0.1rem 0.1rem 0.25rem 0.1rem rgba(137, 137, 138, 0.25);
 }
 
 .about-text {
     padding: 0.5rem;
     margin: 1.25rem;
     border-radius: 1rem;
-    box-shadow: 0.1rem 0.1rem 0.25rem 0.1rem rgba(96, 97, 97, 0.25);
+    box-shadow: 0.1rem 0.1rem 0.25rem 0.1rem rgba(137, 138, 138, 0.25);
 }
 
 .profile-photo {
@@ -112,10 +125,10 @@ header ul li a:hover {
     padding: 1.25rem 0;
     border-radius: 1rem;
     margin: 1rem;
-    box-shadow: 0.1rem 0.1rem 0.25rem 0.1rem rgba(96, 97, 97, 0.25);
+    box-shadow: 0.1rem 0.1rem 0.25rem 0.1rem rgba(137, 137, 138, 0.25);
 }
 
-.projects h2, h3, ul {
+.projects h2, h3, p, ul {
     margin-top: 0.25rem;
     text-align: center;
 }
@@ -133,9 +146,9 @@ header ul li a:hover {
         width: 15rem;
         margin: 0.5em 0;
         padding: 0.25rem 0.5rem;
-        background-color: rgb(172, 195, 247);
+        background-color: rgba(137, 169, 243, 0.5);
         border-radius: 1rem;
-        box-shadow: 0.1rem 0.1rem 0.25rem 0.1rem rgba(96, 97, 97, 0.25);
+        box-shadow: 0.1rem 0.1rem 0.25rem 0.1rem rgba(137, 137, 138, 0.25);
     }
 
 @media only screen and (max-width: 768px) {
@@ -155,18 +168,19 @@ header ul li a:hover {
         padding: 0.25rem 0.5rem;
         background-color: rgba(137, 169, 243, 0.5);
         border-radius: 1rem;
-        box-shadow: 0.1rem 0.1rem 0.25rem 0.1rem rgba(96, 97, 97, 0.25);
+        box-shadow: 0.1rem 0.1rem 0.25rem 0.1rem rgba(137, 137, 138, 0.25);
     }
 }
 
 .projects ul li a {
-    color: black;
+    color: white;
     text-decoration: none;
 }
 
 .projects ul li:hover {
     color: black;
-    background-color: rgba(137, 169, 243, 1)
+    background-color: rgba(137, 169, 243, 1);
+    scale: 1.05;
 }
 
 .skills {
@@ -174,7 +188,7 @@ header ul li a:hover {
     padding: 1.25rem 0;
     margin: 1rem;
     border-radius: 1rem;
-    box-shadow: 0.1rem 0.1rem 0.25rem 0.1rem rgba(96, 97, 97, 0.25);
+    box-shadow: 0.1rem 0.1rem 0.25rem 0.1rem rgba(137, 137, 138, 0.25);
 }
 
 .skills ul li {
@@ -183,10 +197,15 @@ header ul li a:hover {
     padding-top: 0.625rem;
 }
 
+.skills i:hover {
+    scale: 1.25;
+}
+
 footer {
-    color: black;
+    color: white;
     height: 3rem;
     width:100%;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
