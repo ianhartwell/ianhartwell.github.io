@@ -1,5 +1,5 @@
 html {
-    background-color: lightgray;
+    background-color: rgb(208, 243, 221);
     font-family: Arial, sans-serif;
 }
 
@@ -14,25 +14,29 @@ h1 {
 
 h2 {
     text-align: center;
-    color: purple;
+    color: rgb(4, 138, 87);
 }
 
 table {
-    border: 2px solid plum;
+    border: 2px solid rgb(4, 138, 87);
     width: 650px;
     margin: 0 auto;
     box-sizing: border-box;
 }
 
 th {
-    background-color: plum;
+    background-color: rgb(4, 138, 87);
 }
 
 td {
-    border-top: 1px solid plum;
+    border-top: 1px solid rgb(4, 138, 87);
 }
 
+span {
+    background-color: rgb(255, 255, 255);
+}
 
 .code {
     font-family: monospace;
+    text-align: center;
 }
