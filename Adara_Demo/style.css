@@ -40,26 +40,11 @@ nav ul li a {
     color: #CDA470;
 }
 
-.mission {
-    margin: 1rem;
-    padding: 1rem;
-    border: 1px solid #34B7DF;
-    border-radius: 18px;
-    box-shadow: 0.1rem 0.1rem 0.25rem 0.1rem #CDA470;
-}
-
-.mission h2 {
-    color: #34B7DF;
-    text-align: center;
-    padding-bottom: 0.5rem;
-}
-
-.bio {
-    margin: 1rem;
-    padding: 1rem;
-    border: 1px solid #34B7DF;
-    border-radius: 18px;
-    box-shadow: 0.1rem 0.1rem 0.3rem 0.1rem #CDA470;
+@media only screen and (max-width: 500px) {
+    nav ul li {
+        display: block;
+        padding: 0.15rem 0;
+    }
 }
 
 h2 {
@@ -76,8 +61,86 @@ p {
     color: #CDA470;
 }
 
-.bio h4, p {
-    margin: .5rem 0rem; 
+.mission-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid #34B7DF;
+    border-radius: 18px;
+    box-shadow: 0.1rem 0.1rem 0.3rem 0.1rem #CDA470;
+}
+
+.mission-container h2 {
+    display: block;
+    margin: 1rem;
+}
+
+.mission-panel {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 0.75rem;
+    margin: 1.25rem;
+}
+
+@media only screen and (max-width: 865px) {
+    .about-panel {
+        flex-direction: column;
+    }
+}
+
+.theme-panel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.5rem;
+    width: 30%;
+    height: 10rem;
+    padding-bottom: 20rem;
+    margin: 0 0.25rem;
+}
+
+@media only screen and (max-width: 865px) {
+    .theme-panel{
+        width: 100%;
+        height: 10rem;
+        padding-bottom: 15rem;
+    }
+}
+
+@media only screen and (max-width: 460px) {
+    .theme-panel{
+        width: 100%;
+        height: 20rem;
+        padding-bottom: 12rem;
+    }
+}
+
+.theme-panel img {
+    width: 10rem;
+}
+
+.theme-panel ul {
+    color: #CDA470
+}
+
+
+h2 {
+    padding-bottom: 0.5rem;
+}
+
+h2, h3, h4 {
+    color: #34B7DF;
+    text-align: center;
+}
+
+
+p {
+    color: #CDA470;
 }
 
 .members-container {
@@ -164,4 +227,9 @@ button {
     font-family: 'Ancizar Serif', serif;
     font-weight: 700;
     cursor: pointer;
+}
+
+footer p {
+    text-align: center;
+    padding-bottom: 0.5rem;
 }
