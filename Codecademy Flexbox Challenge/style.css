@@ -36,6 +36,10 @@ header {
     line-height: 1.5;
 }
 
+.nav-bar li a:hover {
+    text-decoration: underline;
+}
+
 /* Mission Section */
 
 .mission {
@@ -106,6 +110,10 @@ header {
     padding-bottom: 0;
 }
 
+.product-window:hover {
+    scale: 1.1;
+}
+
 /* Team Section */
 
 .team {
@@ -140,6 +148,10 @@ header {
     width: 12rem;
     height: 12rem;
     object-fit: cover;
+}
+
+.team-card:hover {
+    opacity: 0.8;
 }
 
 /* Footer Section */
