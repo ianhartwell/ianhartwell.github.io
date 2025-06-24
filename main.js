@@ -1,3 +1,5 @@
+/*
+
 const profilePhoto = document.getElementById('profile-photo');
 const aboutText = document.getElementById('about-text');
 const projects = document.getElementById('projects');
@@ -30,3 +32,5 @@ skills.onmouseover = function() {
 skills.onmouseout = function() {
     this.style.backgroundColor = 'rgb(221, 221, 225)';
 };
+
+*/
